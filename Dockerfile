@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.5
 RUN apk update && \
     apk add --update alpine-sdk
 RUN mkdir /app
